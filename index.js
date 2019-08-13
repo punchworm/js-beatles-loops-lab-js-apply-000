@@ -1,2 +1,2 @@
 // add solution here
- theBeatlesPlay arrMusicians,
+theBeatlesPlay = (arrMusicians, ) =>
