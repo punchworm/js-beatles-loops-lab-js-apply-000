@@ -14,15 +14,13 @@ const facts = [
   "He hated the sound of his own voice"
 ];
 function johnLennonFacts(arr){
-var newArr = [];
- var l = arr.length;
+  var newArr = [];
+  var i = arr.length;
   
-while(l>0){
-console.log(l);
-newArr.unshift(arr[l-1]+"!!!");
-//     l--;
-//   }
-//   return newArr;
-// }
-
-// johnLennonFacts(facts);
+while(i>0){
+console.log(i);
+newArr.unshift(arr[i-1]+"!!!");
+ i--;
+}
+return newArr;
+}
